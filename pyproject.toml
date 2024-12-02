@@ -1,0 +1,18 @@
+[project]
+name = "stripchart"
+version = "0.0.1"
+authors = [
+  { name="Coburn Wightman", email="author@example.com" },
+]
+description = "Python Tk Plotting library"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Private :: Do not Upload",
+]
+
+[project.urls]
+Homepage = "https://github.com/coburnw/stripchart"

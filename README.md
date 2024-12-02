@@ -7,10 +7,17 @@ To use on a headless Raspberry Pi Zero with an OS Lite install:
  * ``ssh -X pi@mypi.local``
  * ``apt install python3-tk``
  * ``git clone https://github.com/coburnw/stripchart``
- * ``python chart.py``
- 
+ * ``python src/stripchart/chart.py``
+
 The -X option of ssh is the magic that allows a Lite install to delegate Tk's graphics rendering to the clients display manager.
 
+To install for your own use:
+ * ``python -m venv --prompt prompt_name venv``
+ * ``source venv/bin/activate``
+ * ``git clone http://github.com/coburnw/stripchart.git``
+ * ``cd stripchart``
+ * ``pip install --editable .``
+ 
 Todo:
  * ticks are somewhat erratic
  * x axis scale is in decades rather than a time series
